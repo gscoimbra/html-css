@@ -1,0 +1,132 @@
+@charset "UFT-8";
+
+/* @font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+body {
+    text-size-adjust: auto;
+    background-color: #69E08B;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-image: linear-gradient(0deg, #2E613C 30%, #4CA164, #5DC77B, #69E08B, #6FED93);
+    margin: 0px;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: black 0px 1px 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+header > p {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: black 0px 1px 0px;
+    text-align: center;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+main {
+    text-size-adjust: auto;
+    background-color: white;
+    width: 850px;
+    margin: auto;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.397);
+    border-radius: 0px 0px 5px 5px;
+    padding: 15px;
+    line-height: 25px;
+}
+
+main h1 {
+    color: #1e3d26;
+    font-family: 'Android', Times, serif;
+}
+
+main > h2 {
+    background-image: linear-gradient(90deg, #65c7753f, #72E085, #99f5a960, white);
+    color: #1e3d26;
+    font-family: 'Android', Times, serif;
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 25px;
+    padding: 10px;
+}
+
+article {
+    background-color: #aae4ba;
+    color: black;
+    padding: 0px 0px 10px 0px;
+    border-radius: 5px;
+    box-shadow:0px 0px 6px 1px rgba(0, 0, 0, 0.397);
+}
+
+article > h3 {
+    background-color: #425f4a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+article > p {
+    text-indent: 25px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #294e33;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+div#video {
+    background-color: #31613C;
+    padding: 25px 40px;
+    margin: auto;
+    text-align: center;
+}
+
+strong > a {
+    color: #294e33;
+    text-decoration: none;
+    background-color: #72E085;
+}
+
+strong {
+    color: #294e33;
+}
+
+div#bugdroid {
+    text-align: center;
+}
+
+div#irina_blok {
+    text-align: center;
+}
+
+div#dandroid {
+    text-align: center;
+}
+
+article > ul {
+    text-decoration: underline;
+}
